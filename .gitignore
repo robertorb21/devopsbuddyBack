@@ -24,3 +24,8 @@ nbdist/
 .nb-gradle/
 
 target
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml
+src/
