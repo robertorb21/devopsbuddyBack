@@ -23,23 +23,3 @@ pom.xml
 
 stripe.properties
 .gradle/
-src/main/java/com/devopsbuddy/backend/
-src/main/java/com/devopsbuddy/config/
-src/main/java/com/devopsbuddy/controllers/
-src/main/java/com/devopsbuddy/enums/
-src/main/java/com/devopsbuddy/exceptions/
-src/main/java/com/devopsbuddy/utils/
-src/main/java/com/devopsbuddy/web/controllers/advices/
-src/main/java/com/devopsbuddy/web/domain/
-src/main/java/com/devopsbuddy/web/i18n/
-src/main/resources/i18n/
-src/main/resources/sql/
-src/main/resources/static/
-src/main/resources/templates/admin/
-src/main/resources/templates/common/
-src/main/resources/templates/copy/
-src/main/resources/templates/error/
-src/main/resources/templates/payload/
-src/main/resources/templates/registration/
-src/main/resources/templates/user/
-src/main/resources/uml/
