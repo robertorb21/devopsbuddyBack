@@ -19,7 +19,6 @@ target
 .mvn/
 mvnw
 mvnw.cmd
-pom.xml
 
 stripe.properties
 .gradle/
