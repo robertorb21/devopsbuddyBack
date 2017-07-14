@@ -9,16 +9,8 @@ target/
 .settings
 .springBeans
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
 target
 .mvn/
 mvnw
 mvnw.cmd
 
-stripe.properties
-.gradle/
