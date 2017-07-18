@@ -9,6 +9,9 @@ target/
 .settings
 .springBeans
 
+.gradle
+.idea
+
 target
 .mvn/
 mvnw
