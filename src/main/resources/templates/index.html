@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/header :: common-header" />
+
+<body>
+
+<div th:replace="common/navbar :: common-navbar" /> 
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1 th:text="#{index.main.callout}">Acá irá el texto del messages properties</h1>
+        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a
+            mostly barebones HTML document.</p>
+    </div>
+
+</div><!-- /.container -->
+
+<div th:replace="common/header :: before-body-script" />
+
+</body>
+</html>
