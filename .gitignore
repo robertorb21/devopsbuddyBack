@@ -17,3 +17,6 @@ target
 mvnw
 mvnw.cmd
 
+stripe.properties
+application-dev.properties
+.gitignore
