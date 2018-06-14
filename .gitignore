@@ -17,3 +17,5 @@ target
 mvnw
 mvnw.cmd
 
+application-dev.properties
+stripe.properties
