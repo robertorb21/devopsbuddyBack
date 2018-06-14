@@ -8,21 +8,25 @@
     <!-- To enable JMX Management -->
     <jmxConfigurator/>
 
+    <!-- Print messages to the console -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
 
+    <!-- Print this on a file -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${user.home}/logs/devopsbuddy/devopsbuddy.log</file>
 
+        <!-- Target location -->
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <fileNamePattern>${user.home}/logs/devopsbuddy/devopsbuddy.%i.log.zip</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>3</maxIndex>
         </rollingPolicy>
 
+        <!-- Tamaño maximo del log file -->
         <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
             <maxFileSize>5MB</maxFileSize>
         </triggeringPolicy>
@@ -31,7 +35,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.devopsbuddy" level="debug" />
+    <logger name="com.devopsbuddy" level="debug" /> <!-- name es el root package que se queire logger y el nivel -->
     <logger name="uk.co.jemos.podam" level="warn" />
     <logger name="org.springframework" level="info" />
     <logger name="org.hibernate" level="warn" />
